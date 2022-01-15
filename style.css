@@ -8,8 +8,7 @@ body{
    -------------- */
 .start-manu{
     display: flex;
-    padding-top: 10%;
-    padding-right: 60px;
+    padding-top: 5%;
     color: #363434;   
 }
 p{
@@ -28,6 +27,49 @@ a{
     
     padding: 10px 30px;
     border-radius: 20px;
-    color: white;
+    color: #ffffff;
+}
+hr{
+    border: 1px solid gray;
+    width: 90%;
+}
+/* ----------------------
+    second section 
+   ----------------------*/
+.second-section{
+    border: 1px solid #000000;
+    width: 320px;
+    height: 450px;
+    padding-left: 20px;
+    padding-top: 4%;
+    box-shadow: 2px 20px rgb(223, 223, 223);
+
+}
+h2{
+    text-align: center;
+}
+.product-item{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    padding-left: 15%;
+    padding-right: 10%;
+    
+}
+.fa-star{
+    color: orange;
+    font-size: 15px;
+}
+.rating{
+    display: flex;
+    align-items: center; 
+}
+span{
+    margin-left: 18px;
+    font-size: 15px;
+}
+.stor{
+    color: rgb(14, 117, 19);
+    font-size: 20px;
+    
 }
 
