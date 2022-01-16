@@ -9,6 +9,7 @@ body{
 .start-manu{
     display: flex;
     padding-top: 5%;
+    padding-bottom: 2%;
     color: #363434;   
 }
 p{
@@ -16,7 +17,7 @@ p{
     padding-bottom: 2%;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .first-section{
     padding-left: 6%;
@@ -51,8 +52,9 @@ h2{
 .product-item{
     display: grid;
     grid-template-columns: repeat(3,2fr);
-    padding-left: 15%;
-    padding-right: 10%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 3%;
     
 }
 .fa-star{
