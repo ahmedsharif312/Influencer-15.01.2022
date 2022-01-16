@@ -3,6 +3,11 @@ body{
     
     font-family: 'Roboto', sans-serif;
 }
+h3{
+    padding-left: 6%;
+    color: #363434;  
+
+}
 /* --------------
    start manu 
    -------------- */
@@ -22,7 +27,7 @@ h1{
 .first-section{
     padding-left: 6%;
 }
-a{
+.button{
     background-color: #5a144e;
     text-decoration: none;
     
@@ -54,7 +59,8 @@ h2{
     grid-template-columns: repeat(3,2fr);
     padding-left: 10%;
     padding-right: 5%;
-    padding-top: 3%;
+   
+    padding-bottom: 5%;
     
 }
 .fa-star{
@@ -74,4 +80,31 @@ span{
     font-size: 20px;
     
 }
-
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 1%;
+    background-color: rgb(59, 59, 59);
+}
+@media only screen and (max-width:688px) {
+    h3{
+        text-align: center;
+    }
+    .start-manu{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .start-manu img{
+        width: 100%;
+        
+    }
+    .product-item{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        padding: 1px;
+    }
+}
+               
+        
